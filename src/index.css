@@ -1,13 +1,81 @@
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.wrapper {
+    padding-top: 5rem;
+    margin: 0 auto;
+    width: 600px;
+}
+
+.rm {
+    background: red;
+    border-radius: 50%;
+    color: white;
+    border: none;
+}
+
+.done {
+    text-decoration: line-through;
+}
+
+.addtext {
+    box-sizing: border-box;
+
+    /* Auto layout */
+
+    display: inline-block;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 12px 16px;
+    gap: 10px;
+
+
+    width: 332px;
+    height: 24px;
+    left: 100px;
+    top: 313px;
+
+    /* Primary/White */
+
+    background: #FFFFFF;
+    /* Secondary/Gray 2 */
+
+    border: 1px solid #E0E2E7;
+    border-radius: 8px;
+}
+
+.add {
+
+    /* Button Type=Secondary, State=Default, Icon=False */
+
+
+    box-sizing: border-box;
+
+    /* Auto layout */
+
+    display: inline-block;
+    justify-content: right;
+    align-items: center;
+    padding: 12px 20px;
+
+
+    width: 100px;
+    height: 50px;
+
+    background: #FFFFFF;
+    border: 1px solid #2E65F3;
+    border-radius: 8px;
+    margin: 10px 10px 10px 10px;
 }
